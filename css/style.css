@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Roboto", sans-serif;
 }
@@ -177,4 +181,123 @@ body {
 }
 .card-button-icon {
     margin-right: 4px;
+}
+
+.developer {
+    display: flex;
+    align-items: center;
+    padding: 80px 0 40px;
+}
+
+.developer-photo {
+    width: 360px;
+    height: 440px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.developer-about {
+    margin-left: 55px;
+}
+
+.developer-hello {
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.02em;
+    color: #211B12;
+}
+
+.developer-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 125%;
+    letter-spacing: -0.03em;
+    color: #bf7506;
+    margin-top: 4px;
+    margin-bottom: 16px;
+}
+
+.developer-text {
+    font-size: 16px;
+    line-height: 150%;
+    color: #211B12;
+}
+
+.developer-motto {
+    font-size: 24px;
+    line-height: 150%;
+    color: #dd9c3c;
+    margin: 16px 0;
+}
+
+.developer-signature {
+    max-width: 200px;
+}
+
+.skills-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.02em;
+    color: #211B12;
+    margin-bottom: 13px;
+}
+
+.feedback {
+    padding: 80px 0 160px;
+}
+
+.form-container {
+    max-width: 435px;
+    margin: auto;
+}
+
+.input-group {
+    position: relative;
+    padding-top: 9px;
+    margin-bottom: 24px;
+}
+
+.input-label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #83807c;
+    padding: 0 8px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+.input {
+    border: 3px solid #e0dedc;
+    border-radius: 4px;
+    width: 435px;
+    height: 56px;
+}
+
+.textarea {
+    min-height: 140px;
+    padding-top: 15px;
+}
+
+.form-submit {
+    display: flex;
+    align-items: center;
+    padding: 7px 8px;
+    text-decoration: none;
+    color: rgb(33, 27, 18);
+    font-family: Inter;
+    font-style: Bold;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0%;
+    border: none;
+    border-bottom: 2px solid rgb(191, 117, 6);
+    background-color: #fff;
+    cursor: pointer;
+    justify-self: flex-end;
 }

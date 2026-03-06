@@ -160,15 +160,15 @@
                 <form action="#" class="form">
                     <div class="input-group">
                         <label for="userName" class="input-label">Имя</label>
-                        <input type="text" class="input" id="userName">
+                        <input type="text" name="client_name" class="input" id="userName">
                     </div>
                     <div class="input-group">
                         <label for="userEmail" class="input-label">Email</label>
-                        <input type="text" class="input" id="userEmail">
+                        <input type="text" name="client_email" class="input" id="userEmail">
                     </div>
                     <div class="input-group">
                         <label for="userMessage" class="input-label">Сообщение</label>
-                        <textarea id="userMessage" cols="30" rows="30" class="input textarea"></textarea>
+                        <textarea id="userMessage" name="client_message" cols="30" rows="30" class="input textarea"></textarea>
                     </div>
                     <button type="submit" class="form-submit">
                         <img src="./img/send.svg" alt="download-icon" class="cv-icon">
@@ -177,7 +177,8 @@
                 </form>
             </div>
         </section>
-        <!-- /.feedback -->S
+        <!-- /.feedback -->
+         <script src="js/main.js"></script>
     </main>
 </body>
 
